@@ -4,7 +4,13 @@
   "main": "index.js",
   "author": "Natanael <taelima1997@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@langchain/openai": "^0.0.14",
+    "@langchain/core": "^0.1.48",
+    "dotenv": "^16.4.5"
+  },
   "devDependencies": {
+    "@types/node": "^20.11.24",
     "typescript": "^5.8.3"
   }
 }
